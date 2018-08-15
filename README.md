@@ -29,3 +29,26 @@
  5. We suggest that you begin by typing:
     - cd new-beginnings
     - npm start
+
+## Development
+ 1. Create a branch each time you are making changes to this repository. NEVER make changes directly to Master branch. To create a branch:
+    - Using Mac Terminal
+     > ```git checkout -b <branch name>```
+    - On Github
+     > Brach dropdown create a new branch. NOTE you will have to fetch from Master on your local ide in order to start developing.  The way you choose to do this will vary based on your IDE and OS.
+ 2. ES6, no semicolons necessary
+    - If you need a refresher on ES6 or need to learn check out FUN FUN FUNCTION on youtube and he has a Higher Order Functions playlist. Also just google for ES6 explanations. ES6 is the norm in JS world especially in REACT, Angular 2+, and VUEjs.
+ 3. *Style Guide TBD.*
+
+## Commenting
+ 1. Utilize comments whereever necessary
+ 2. Comment out unfinished work or cleanup work with. @incomplete, @cleanup, @leftoff
+    - ex: /* @incomplete: need to find a way to pass props to this component and it's sibling component */
+    - ex: /* @cleanup: shitty CSS work, need to clean this up but wanted to knock it out quick */
+    - ex: /* @incomplete @leftoff: HELP! struggling with this event call, needed to step away, I tried x, y, z and am thinking another solution might be a, b, or c. */
+ 3. Please linebreak comments with:
+    - ex: /* @incomplete: have started to work on lorem ipsum dolon color
+            Line breaks keep frmo having to horizontally scroll too much
+            Once a style guide (like prettify or eslint) is implemented this should
+            be taken care of automically */
+ 4. If you have shitty code (not meant to be offensive, everyone has it) or even phenomenal code... make sure that you comment what it does.  Good naming convention is a must but comments really do help others quickly discern what is going on.

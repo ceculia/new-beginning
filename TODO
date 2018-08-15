@@ -1,9 +1,16 @@
-✔ Create / Instantiate React Boilerplate @done(18-08-15 14:37)
+✔ Create / Instantiate React Boilerplate @done(18-08-15 14:53)
     ✔ Decide between React CLI or Simple React Boilerplate @done(18-08-15 14:36)
         ✔ decided on Create React App https://reactjs.org/docs/create-a-new-react-app.html @done(18-08-15 14:37)
 ☐ Decide on Styling Library
     ☐ Decide here: (https://blog.bitsrc.io/11-react-component-libraries-you-should-know-178eb1dd6aa4)
-☐ Comment component placements
+☐ Component placement
+    ☐ Wireframe Complete
+    ☐ Screen shot wireframe to inner README.md for reference
     ☐ Where will component be placed?
     ☐ Where will props be passed? What's the highest we can store a prop, etc
+
+
+DEVELOPMENT
+☐ Develop Main Container Page
+    ☐ Ensure comments on placement w/ owner name
 ☐ 
