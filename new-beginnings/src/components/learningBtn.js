@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 class LearningBtn extends Component {
   constructor(props) {
     super(props)
@@ -14,7 +12,7 @@ class LearningBtn extends Component {
       <div>
         <div>hello</div>
         <button onClick={() => alert('click')}>
-          {this.props.value}
+          { this.props.value }
         </button>
       </div>
     )
