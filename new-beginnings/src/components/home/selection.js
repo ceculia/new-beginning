@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Selection extends Component {
 
@@ -9,13 +9,23 @@ class Selection extends Component {
 		}
 	}
 
+	constructor(props) {
+		super(props)
+		this.state = {
+			value: null,
+		}
+	}
+
 	render() {
 		return (
-			<div className="ba br3" style={this.styles.box}>
-				selection
+			<div>
+			<button className="ba br3" style={this.styles.box} onClick={() => alert('click')}>
+				JavaScript
+				{ this.props.value }
+			</button>
 			</div>
-		);
+		)
 	}
 }
 
-export default Selection;
+export default Selection
