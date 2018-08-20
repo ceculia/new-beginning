@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Selection from './selection'
 
 class Select extends Component {
@@ -13,4 +13,4 @@ class Select extends Component {
 	}
 }
 
-export default Select;
+export default Select

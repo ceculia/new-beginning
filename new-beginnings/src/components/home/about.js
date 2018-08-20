@@ -8,7 +8,7 @@ const About = () => {
 			<h1>Welcome</h1>
 			<p>We are a team of four Coding Ninja's</p>
 		</div>
-	);
+	)
 }
 
-export default About;
+export default About
